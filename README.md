@@ -21,7 +21,7 @@ path_from = "your path/NCBI diseases"
 ncbi_to_brat(path_from=path_from, path_to=path_to)
 ```
 
-## Supported Corpora
+## Supported formats
 
 - IOB formatted, including:
    - CoNLL
@@ -33,12 +33,13 @@ ncbi_to_brat(path_from=path_from, path_to=path_to)
    - MIT Restaurants
 - BRAT formatted, including:
   - CADEC
-- NCBI
-- IEER
-- BioCreative
-- Groningen Meaning Bank
-- GeoVirus
-- MalwareTextDB
+- formats of the following datasets:
+  - NCBI disease
+  - IEER format
+  - BioCreative
+  - Groningen Meaning Bank
+  - GeoVirus
+  - MalwareTextDB
 
 ### Annotation Schemes of BRAT and IOB
 
