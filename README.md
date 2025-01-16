@@ -16,8 +16,8 @@ Here's a basic example of how to use NER Formatter:
 ```python
 from ner-reformat import ncbi_to_brat
 
-path_to = "your path/NCBI diseases"
-path_from = "your path/NCBI diseases"
+path_to = "your_path_to_save_transformed_dataset/NCBI diseases"
+path_from = "your_path_to_source_dataset/NCBI diseases"
 ncbi_to_brat(path_from=path_from, path_to=path_to)
 ```
 
