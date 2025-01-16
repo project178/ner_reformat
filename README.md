@@ -6,14 +6,14 @@ NER Reformat is a Python package that transforms Named Entity Recognition (NER) 
 ## Installation
 
 You can install NER Formatter using pip:
-```
+```bash
 pip3 install ner-reformat
 ```
 
 ## Usage
 
 Here's a basic example of how to use NER Formatter:
-```
+```python
 from ner-reformat import ncbi_to_brat
 
 path_to = "your path/NCBI diseases"
